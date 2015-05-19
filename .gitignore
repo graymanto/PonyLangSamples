@@ -28,7 +28,7 @@
 *.i*86
 *.x86_64
 *.hex
-PingPong/PingPong
+pingpong/pingpong
 
 # Debug files
 *.dSYM/
