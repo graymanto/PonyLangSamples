@@ -1,12 +1,12 @@
 actor Main
   """ Entry point for the application """
-    new create(env: Env) =>
-      env.out.print("Starting ping pong!")
+  new create(env: Env) =>
+    env.out.print("Starting ping pong!")
 
-      let pong = Pong(env)
-      let ping = Ping(env, pong)
+    let pong = Pong(env)
+    let ping = Ping(env, pong)
 
-      ping.receive()
+    ping.receive()
 
 
 actor Pong
